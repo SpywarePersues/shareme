@@ -142,7 +142,7 @@ return (
         {pins ? (
             <MasonryLayout pins={pins} />
         ) : (
-            <Spinner message="Loading more pins" />
+            <Spinner message="Loading more pins." />
         )}
         </>
     );
